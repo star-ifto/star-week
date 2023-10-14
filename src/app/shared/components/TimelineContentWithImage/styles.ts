@@ -61,6 +61,11 @@ export const StyledSpeakerInfo = styled.div<IStyledSpeakerInfoProps>`
     background-color: white;
     font-size: 1.1em;
   }
+
+  @media screen and (max-width: 1205px) {
+    justify-content: center;
+    text-align: center;
+  }
 `;
 
 export const StyledImageContainer = styled.div`

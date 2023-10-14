@@ -82,7 +82,7 @@ export const StyledContainer = styled.div<IStyledContainerProps>`
     }
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1205px) {
     width: 100%;
     padding-left: 80px;
     padding-right: 25px;
@@ -110,5 +110,9 @@ export const StyledContainer = styled.div<IStyledContainerProps>`
       border-left: 0;
       left: -15px;
     }
+  }
+
+  @media screen and (max-width: 565px) {
+    padding: 10px 5%;
   }
 `;

@@ -12,4 +12,8 @@ export const StyledContainer = styled(ContentContainer)`
     text-align: center;
     width: 100%;
   }
+
+  @media screen and (max-width: 1715px) {
+    padding: 6% 0;
+  }
 `;

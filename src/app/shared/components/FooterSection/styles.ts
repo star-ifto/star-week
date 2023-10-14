@@ -8,6 +8,10 @@ export const StyledContainer = styled.footer`
   background-color: #051114;
   color: #ffffffb3;
   padding: 4.6875em 12.5% 5.3125em 12.5%;
+
+  @media screen and (max-width: 755px) {
+    padding: 4.5em 5%;
+  }
 `;
 
 export const StyledContent = styled.div`
@@ -16,6 +20,13 @@ export const StyledContent = styled.div`
   justify-content: space-between;
   padding-bottom: 4.6875em;
   border-bottom: 1px solid #ffffff33;
+
+  @media screen and (max-width: 1110px) {
+    flex-direction: column;
+    gap: 3em;
+    padding-bottom: 3em;
+    align-items: center;
+  }
 `;
 
 export const StyledFirstContent = styled.div`
@@ -32,11 +43,41 @@ export const StyledFirstContent = styled.div`
     line-height: 160%;
     font-size: 1em !important;
   }
+
+  @media screen and (max-width: 1110px) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 1065px) {
+    img {
+      width: 30vw;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    flex-direction: column;
+    gap: 2em;
+    text-align: center;
+  }
 `;
 
 export const StyledSecondContent = styled.div`
   display: flex;
   gap: 3.75em;
+
+  @media screen and (max-width: 1110px) {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  @media screen and (max-width: 630px) {
+    justify-content: space-evenly;
+  }
 `;
 
 export const StyledIFTOLogoContainer = styled.div`
@@ -46,6 +87,18 @@ export const StyledIFTOLogoContainer = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media screen and (max-width: 850px) {
+    img {
+      width: 10vw;
+    }
+  }
+
+  @media screen and (max-width: 630px) {
+    img {
+      width: 12vw;
+    }
+  }
 `;
 
 export const StyledTextsContainer = styled.div`
@@ -66,6 +119,10 @@ export const StyledTextsContainer = styled.div`
     font-size: 1.125em;
     font-family: "Inter", sans-serif;
     font-weight: 400;
+  }
+
+  @media screen and (max-width: 630px) {
+    font-size: 0.8em;
   }
 `;
 

@@ -27,7 +27,7 @@ export const StyledTimeline = styled.div`
     /* animation: moveline 5s linear forwards; */
   }
 
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 1205px) {
     margin: 50px auto;
 
     &::after {
