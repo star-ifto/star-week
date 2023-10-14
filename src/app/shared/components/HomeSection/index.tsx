@@ -6,7 +6,7 @@ import RectangleGroupImage from "../../assets/rectangle-group.svg";
 
 export function HomeSection() {
   return (
-    <ContentContainer type="primary">
+    <ContentContainer className="home" type="primary">
       <StyledRectangleGroup
         src={RectangleGroupImage}
         alt="Grupo de Retângulos"

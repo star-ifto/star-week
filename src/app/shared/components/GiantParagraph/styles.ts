@@ -5,4 +5,9 @@ export const StyledContainer = styled.p`
   text-align: center;
   font-size: 1.5625em;
   font-family: "Montserrat", sans-serif;
+
+  @media screen and (max-width: 605px) {
+    font-size: 1.35em;
+    line-height: 160%;
+  }
 `;

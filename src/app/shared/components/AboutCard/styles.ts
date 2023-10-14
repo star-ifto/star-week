@@ -24,4 +24,12 @@ export const StyledContainer = styled.div`
   strong {
     margin-bottom: 1em;
   }
+
+  @media screen and (max-width: 900px) {
+    width: 100%;
+    max-width: none;
+
+    box-shadow: none;
+    background-color: #f3f3f3;
+  }
 `;

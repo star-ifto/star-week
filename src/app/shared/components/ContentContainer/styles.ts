@@ -27,4 +27,18 @@ export const StyledContainer = styled.section<IStyledContainerProps>`
           background-color: #f3f3f3;
           color: #000000;
         `}
+
+  @media screen and (max-width: 1210px) {
+    padding: 4% 6%;
+    justify-content: space-around;
+  }
+
+  @media screen and (max-width: 900px) {
+    gap: 2em;
+    padding: 12% 6%;
+
+    p {
+      margin-bottom: 1em;
+    }
+  }
 `;

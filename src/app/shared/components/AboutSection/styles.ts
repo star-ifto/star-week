@@ -21,4 +21,11 @@ export const StyledCardsContainer = styled.div`
   justify-content: space-evenly;
 
   height: 240px;
+
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    height: auto;
+
+    gap: 2em;
+  }
 `;
