@@ -7,6 +7,12 @@ export const StyledContainer = styled(ContentContainer)`
   align-items: center;
   justify-content: space-between;
   padding: 3% 15%;
+  text-align: center;
+
+  @media screen and (max-width: 1015px) {
+    padding: 12% 6%;
+    justify-content: space-around;
+  }
 `;
 
 export const StyledQrCodeContainer = styled.div`
