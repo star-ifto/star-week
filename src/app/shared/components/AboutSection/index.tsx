@@ -16,15 +16,10 @@ export function AboutSection({ ...rest }: IAboutSectionProps) {
       <Title content="Sobre o Evento" />
 
       <GiantParagraph>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged.It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
+        A GETEC visa enriquecer acadêmicos e a comunidade de Araguaína com palestras, workshops e mesas redondas dedicados à exploração de inovações nas áreas de TI e Gestão.
+        Este ano, o tema central é "Inovações Tecnológicas na Indústria: Desafios e Oportunidades".
+        Como um evento anual, a GETEC promove a integração entre dois cursos de graduação do IFTO: Tecnólogo em Análise e Desenvolvimento de Sistemas (ADS) e Tecnólogo em Gestão da Produção Industrial (GPI), fomentando a colaboração entre ambas as disciplinas.
+        Neste ano, a Semana será gerida e organizada pelos acadêmicos dos dois cursos em parceria com a comissão de docentes do Instituto que estão envolvidos com a idealização do evento.
       </GiantParagraph>
 
       <StyledCardsContainer>
