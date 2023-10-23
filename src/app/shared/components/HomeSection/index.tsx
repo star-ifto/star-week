@@ -19,8 +19,8 @@ export function HomeSection() {
           <Title content={`Semana De Gestão \ne Tecnologia`} color="white" />
 
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. A nulla
-            nulla etiam turpis quam diam et. Arcu nisi, sed aenean sit nisl.
+            Assista a palestras, workshops e mesas redondas ministrados por especialistas, incluindo líderes de empresas da região.
+            A oportunidade de ampliar conhecimentos e fazer networking está à sua espera!
           </p>
 
           <a href={`#${Configs.Navigation.Inscription}`}>Inscrição</a>
