@@ -80,6 +80,6 @@ export const StyledImageContainer = styled.div`
   border-radius: 50%;
 
   img {
-    height: ${IMAGE_SIZE};
+    width: ${IMAGE_SIZE};
   }
 `;

@@ -3,6 +3,9 @@ import { TimelineContentWithImage } from "../TimelineContentWithImage";
 import { StyledTimeline } from "./styles";
 import { Fragment } from "react";
 
+import IzabelaMarianaImage from "../../assets/speakers/izabela-mariana.jpg";
+import GeanSharlyImage from "../../assets/speakers/gean-sharly.jpg";
+
 export function Timeline() {
   return (
     <StyledTimeline>
@@ -49,8 +52,8 @@ export function Timeline() {
 
         <TimelineContainer hour="21:00" right>
           <TimelineSimpleContent
-            title="Workshop: Experiências de Desenvolvedor"
-            content="Aprenda com quem já esteve no seu lugar! Junte-se a Luis Henrique, um ex-aluno do curso de ADS, e explore as experiências e insights valiosos que ele acumulou ao longo de sua jornada de desenvolvimento. Uma oportunidade única para obter conhecimento prático."
+            title="Workshop: Carreira em Programação: Lições e Desafios"
+            content="Aprenda com quem já esteve no seu lugar! Junte-se a Luis Oliveira, um ex-aluno do curso de ADS, e explore as experiências e insights valiosos que ele acumulou ao longo de sua jornada de desenvolvimento. Uma oportunidade única para obter conhecimento prático."
           />
         </TimelineContainer>
 
@@ -76,17 +79,17 @@ export function Timeline() {
         <TimelineContainer hour="19:00" color="secondary">
           <TimelineContentWithImage
             title="Parcerias Industriais e Ecossistemas de Inovação"
-            image=""
+            image={GeanSharlyImage}
             name="Gean Sharly de Sousa Santos"
-            description="Profissional com formação em Bacharel em Sistemas de Informação pela ITPAC. Ele é o CEO da Nortesys desde novembro de 1997, desempenhando um papel de liderança na empresa ao longo de várias décadas."
+            description="Formado em sistemas de informação, CEO da empresa Nortesys, referência local em tecnologia. A NORTESYS é genuinamente de Araguaína/TO, há mais de 26 anos desenvolvendo sistemas de gestão empresarial e muitas outras soluções. Sua história de determinação e dedicação aos estudos transformou a sua própria realidade ao fazer o primeiro curso na área de informática na década de 1990."
           />
         </TimelineContainer>
 
         <TimelineContainer hour="20:00" right color="secondary">
           <TimelineContentWithImage
             title="Gestão e Tecnologia na Saúde"
-            image=""
-            name="Izabela"
+            image={IzabelaMarianaImage}
+            name="Izabela Mariana Santos Da Silva"
             description="Gerente na clínica Doutor Hérnia, parte da FRANQUIA DOUTOR HERNIA™, reconhecida por sua liderança no tratamento de patologias da coluna vertebral no Brasil e na América Latina sem recorrer à cirurgia. A clínica é liderada por profissionais com mais de 15 anos de experiência, Dr. André Pêgas de Oliveira e Dr. Laudelino Risso, que introduziram técnicas exclusivas do cenário internacional, incluindo Harvard Medical School e o Hospital Beth Israel."
             right
             womanSpeaker
@@ -135,10 +138,10 @@ export function Timeline() {
 
         <TimelineContainer hour="19:00" right>
           <TimelineContentWithImage
-            title="Engenheiros em Evolução: Adaptando-se às Últimas Tendências Tecnológicas"
+            title="?"
             image=""
-            name="Fred"
-            description="Profissional envolvido com a empresa CREA-TO, o Conselho Regional de Engenharia e Agronomia do Tocantins, uma autarquia federal dedicada à fiscalização das profissões de Engenheiros, Agrônomos, Geólogos, Geógrafos, Meteorologistas, Tecnólogos e Técnicos de Segundo Grau em sua jurisdição"
+            name="?"
+            description="?"
             right
           />
         </TimelineContainer>
