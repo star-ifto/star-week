@@ -466,7 +466,7 @@ Error generating stack: `+i.message+`
   right: 0;
   z-index: 0;
 
-  @media screen and (max-width: 1560px) {
+  @media screen and (max-width: 1700px) {
     display: none;
   }
 `,lm="/2023/assets/peoples-group-3d4e9278.png",am="/2023/assets/rectangle-group-225e7196.svg";function sm(){return h.jsxs(br,{className:"home",type:"primary",children:[h.jsx(im,{src:am,alt:"Grupo de Retângulos"}),h.jsx(rm,{}),h.jsxs(om,{children:[h.jsxs("div",{children:[h.jsx(no,{content:`Semana De Gestão 
