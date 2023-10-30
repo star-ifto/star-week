@@ -1,4 +1,3 @@
-import ExemploPalestranteImage from "../../assets/exemplo-palestrante.jpg";
 import { TimelineContainer, TimelineDate, TimelineSimpleContent } from "..";
 import { TimelineContentWithImage } from "../TimelineContentWithImage";
 import { StyledTimeline } from "./styles";
@@ -136,10 +135,10 @@ export function Timeline() {
 
         <TimelineContainer hour="19:00" right>
           <TimelineContentWithImage
-            title="Políticas Públicas em Saúde – Sistema único de Saúde/SUS"
-            image={ExemploPalestranteImage}
-            name="Joaquim Nascimento Fonseca da Cruz"
-            description="Graduada em Direito especialista em Direito Civil pela PUC Minas, cursou Docência no Ensino Superior no Instituto Federal do Sul de Minas e é mestranda em Gestão Pública pela Universidade Federal de Alfenas. Consultora e docente na área da Infância e Juventude e políticas públicas em Assistência Social."
+            title="Engenheiros em Evolução: Adaptando-se às Últimas Tendências Tecnológicas"
+            image=""
+            name="Fred"
+            description="Profissional envolvido com a empresa CREA-TO, o Conselho Regional de Engenharia e Agronomia do Tocantins, uma autarquia federal dedicada à fiscalização das profissões de Engenheiros, Agrônomos, Geólogos, Geógrafos, Meteorologistas, Tecnólogos e Técnicos de Segundo Grau em sua jurisdição"
             right
           />
         </TimelineContainer>
@@ -147,21 +146,28 @@ export function Timeline() {
         <TimelineContainer hour="20:00">
           <TimelineSimpleContent
             title="Mostra"
-            content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+            content="Explore nosso espaço de exibição! Aqui, você encontrará uma variedade de patrocinadores, empreendedores dos cursos, projetos científicos do ensino médio e muito mais. Não deixe de conferir o que há de mais inovador e inspirador."
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="21:30" right>
+        <TimelineContainer hour="20:00" right>
           <TimelineSimpleContent
-            title="Sorteios"
-            content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+            title="Atrações Musicais"
+            content="Prepare-se para uma experiência musical incrível! A banda Reciclarte e o DJ SAMN! vão agitar o evento com seus ritmos cativantes. Não perca essas atrações musicais emocionantes!"
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="22:00">
+        <TimelineContainer hour="21:30">
+          <TimelineSimpleContent
+            title="Sorteio de Brindes"
+            content="Sua sorte está prestes a brilhar! Participe do sorteio de brindes e tenha a chance de ganhar prêmios incríveis. Quem sabe você não é o próximo sortudo?"
+          />
+        </TimelineContainer>
+
+        <TimelineContainer hour="22:00" right>
           <TimelineSimpleContent
             title="Encerramento"
-            content="There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour."
+            content="É hora de nos despedirmos. Agradecemos a todos por fazerem deste evento um sucesso. Esperamos que tenham aproveitado as experiências e aprendizado. Até a próxima!"
           />
         </TimelineContainer>
       </Fragment>
