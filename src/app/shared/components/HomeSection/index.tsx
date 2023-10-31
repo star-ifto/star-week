@@ -1,7 +1,7 @@
 import { ContentContainer, Header, Title } from "..";
 import { Configs } from "../../configs";
 import { StyledMainContainer, StyledRectangleGroup } from "./styles";
-import PeoplesGroupImage from "../../assets/peoples-group.png";
+// import PeoplesGroupImage from "../../assets/peoples-group.png";
 import RectangleGroupImage from "../../assets/rectangle-group.svg";
 
 export function HomeSection() {
@@ -26,7 +26,7 @@ export function HomeSection() {
           <a href={`#${Configs.Navigation.Inscription}`}>Inscrição</a>
         </div>
 
-        <img src={PeoplesGroupImage} alt="Grupo de Pessoas" />
+        {/* <img src={PeoplesGroupImage} alt="Grupo de Pessoas" /> */}
       </StyledMainContainer>
     </ContentContainer>
   );
