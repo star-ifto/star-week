@@ -126,7 +126,14 @@ export function Timeline() {
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="22:00" color="secondary">
+        <TimelineContainer hour="21:00" color="secondary">
+          <TimelineSimpleContent
+            title="Workshop: O Perfil do Novo Profissional da Produção"
+            content="Descubra as habilidades-chave para se destacar na produção moderna com Jefferson Patric da Silva. Um mergulho prático e essencial para impulsionar sua carreira. Não perca!"
+          />
+        </TimelineContainer>
+
+        <TimelineContainer hour="22:00" right color="secondary">
           <TimelineSimpleContent
             title="Encerramento"
             content="Considerações finais referentes ao segundo dia do evento repleto de aprendizado e inspiração."
@@ -138,7 +145,7 @@ export function Timeline() {
       <Fragment>
         <TimelineDate date="24 de novembro de 2023" />
 
-        <TimelineContainer hour="19:00" right>
+        <TimelineContainer hour="19:00">
           <TimelineContentWithImage
             title="Os Desafios de Empreender"
             image={PedroHenriqueAlcantaraImage}
@@ -148,28 +155,28 @@ export function Timeline() {
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="20:00">
+        <TimelineContainer hour="20:00" right>
           <TimelineSimpleContent
             title="Mostra"
             content="Explore nosso espaço de exibição! Aqui, você encontrará uma variedade de patrocinadores, empreendedores dos cursos, projetos científicos do ensino médio e muito mais. Não deixe de conferir o que há de mais inovador e inspirador."
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="20:00" right>
+        <TimelineContainer hour="20:00">
           <TimelineSimpleContent
             title="Atrações Musicais"
             content="Prepare-se para uma experiência musical incrível! A banda Reciclarte e o DJ SAMN! vão agitar o evento com seus ritmos cativantes. Não perca essas atrações musicais emocionantes!"
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="21:30">
+        <TimelineContainer hour="21:30" right>
           <TimelineSimpleContent
             title="Sorteio de Brindes"
             content="Sua sorte está prestes a brilhar! Participe do sorteio de brindes e tenha a chance de ganhar prêmios incríveis. Quem sabe você não é o próximo sortudo?"
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="22:00" right>
+        <TimelineContainer hour="22:00">
           <TimelineSimpleContent
             title="Encerramento"
             content="É hora de nos despedirmos. Agradecemos a todos por fazerem deste evento um sucesso. Esperamos que tenham aproveitado as experiências e aprendizado. Até a próxima!"
