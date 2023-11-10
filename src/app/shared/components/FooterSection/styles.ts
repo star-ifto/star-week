@@ -106,14 +106,6 @@ export const StyledTextsContainer = styled.div`
   flex-direction: column;
   gap: 0.375em;
 
-  h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    line-height: 140%;
-    color: #ffffff;
-    font-size: 1.375em;
-  }
-
   p {
     line-height: 160%;
     font-size: 1.125em;
@@ -123,6 +115,17 @@ export const StyledTextsContainer = styled.div`
 
   @media screen and (max-width: 630px) {
     font-size: 0.8em;
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+      width: 1.25em;
+      height: 1.25em;
+    }
   }
 `;
 

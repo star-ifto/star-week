@@ -1,6 +1,6 @@
 import GETECLogoImage from "../../assets/getec-logo.svg";
 import IFTOLogoImage from "../../assets/ifto-logo.png";
-import { Configs } from "../../configs";
+import InstagramLogoImage from "../../assets/instagram-logo.png";
 import {
   StyledContainer,
   StyledContent,
@@ -30,33 +30,24 @@ export function FooterSection() {
           </StyledIFTOLogoContainer>
 
           <StyledTextsContainer>
-            <h3>
+            <p>
               <a href="https://www.instagram.com/getec.ifto/" target="_blank">
-                GETEC
+                <img src={InstagramLogoImage} alt="instagram" /> <p>@getec.ifto</p>
               </a>
-            </h3>
+            </p>
 
             <p>
               <a
                 href="https://www.instagram.com/ifto.araguaina/"
                 target="_blank"
               >
-                IFTO Araguaína
+                <img src={InstagramLogoImage} alt="instagram" /> <p>@ifto.araguaina</p>
               </a>
             </p>
 
             <p>
               <a href="https://www.instagram.com/ifto.oficial/" target="_blank">
-                IFTO Oficial
-              </a>
-            </p>
-
-            <p>
-              <a
-                href={Configs.Links.WhatsappGroup}
-                target="_blank"
-              >
-                Tira Dúvidas
+                <img src={InstagramLogoImage} alt="instagram" /> <p>@ifto.oficial</p>
               </a>
             </p>
           </StyledTextsContainer>
