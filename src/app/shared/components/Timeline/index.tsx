@@ -140,7 +140,7 @@ export function Timeline() {
             name="Danilo Borges"
             about_name="Técnico em Redes e Formando em ADS - IFTO Araguaína"
             description="Mergulhe no mundo da Prática de Redes! Neste minicurso, você aprenderá os princípios fundamentais de redes de computadores, incluindo topologias, protocolos e segurança. Prepare-se para criar experiências digitais que realmente atendam às necessidades dos usuários."
-            address="Laboratório 2"
+            address="Laboratório 4"
             vacancy="Vagas disponíveis: 15"
             womanSpeaker
             twoSpeakers={false}
@@ -225,7 +225,7 @@ export function Timeline() {
             name="Danilo Borges"
             about_name="Técnico em Redes e Formando em ADS - IFTO Araguaína"
             description="Mergulhe no mundo da Prática de Redes! Neste minicurso, você aprenderá os princípios fundamentais de redes de computadores, incluindo topologias, protocolos e segurança. Prepare-se para criar experiências digitais que realmente atendam às necessidades dos usuários."
-            address="Laboratório 2"
+            address="Laboratório 4"
             vacancy="Vagas disponíveis: 15"
             womanSpeaker
             twoSpeakers={false}
