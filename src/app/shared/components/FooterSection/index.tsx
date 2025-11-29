@@ -31,9 +31,9 @@ export function FooterSection() {
 
           <StyledTextsContainer>
             <p>
-              <a href="https://www.instagram.com/getec.ifto/" target="_blank">
+              <a href="https://www.instagram.com/ads.ifto/" target="_blank">
                 <img src={InstagramLogoImage} alt="instagram" />{" "}
-                <p>@getec.ifto</p>{" "}
+                <p>@ads.ifto</p>{" "}
                 {
                   // TODO: Change instagram link
                 }
@@ -60,7 +60,7 @@ export function FooterSection() {
         </StyledSecondContent>
       </StyledContent>
 
-      <StyledCopyright>Copyright &copy; 2024 STAR.</StyledCopyright>
+      <StyledCopyright>Copyright &copy; 2025 STAR.</StyledCopyright>
     </StyledContainer>
   );
 }

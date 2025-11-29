@@ -21,7 +21,7 @@ export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
       <Title content="Onde fazer a Inscrição?" />
 
       <GiantParagraph>
-        A inscrição do evento será realizada no site oficial de eventos do IFTO até o dia <strong>20/11</strong>.
+        A inscrição do evento será realizada no site oficial de eventos do IFTO até o dia <strong>06/12</strong>.
         Para acessar o link da inscrição, basta escanear o QR Code abaixo ou clicar no botão "ACESSAR LINK". É muito importante que seja realizada a inscrição para os eventos de seu desejo, pois apenas inscritos terão seus certificados gerados.
       </GiantParagraph>
 
