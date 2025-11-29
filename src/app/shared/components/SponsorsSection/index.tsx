@@ -2,7 +2,6 @@ import { Title } from "..";
 import { SponsorCard } from "../SponsorCard";
 import { StyledContainer, StyledSponsorsContainer } from "./styles";
 
-import TOCMAQImage from "../../assets/sponsors/tocmaq.png";
 import nortesys from "../../assets/sponsors/logo nortesys.png";
 
 
