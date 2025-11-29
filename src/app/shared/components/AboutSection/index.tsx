@@ -44,7 +44,7 @@ export function AboutSection({ ...rest }: IAboutSectionProps) {
           title="3 dias de Evento"
           description={
             <>
-              <span>Dia 02 a dia 04 de Outubro</span>
+              <span>Dia 04 a dia 06 de Dezembro</span>
               <br />
               <span>Faça sua reserva</span>
             </>
