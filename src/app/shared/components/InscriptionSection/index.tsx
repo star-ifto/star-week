@@ -9,7 +9,7 @@ interface IInscriptionSectionProps
     HTMLElement
   > {}
 
-const INSCRIPTION_LINK = "https://si.ifto.edu.br/evento/inscricao/1673/";
+const INSCRIPTION_LINK = "https://suap.ifto.edu.br/eventos/inscricao/1/1335/";
 
 export function InscriptionSection({ ...rest }: IInscriptionSectionProps) {
   function handleAccessLink() {
