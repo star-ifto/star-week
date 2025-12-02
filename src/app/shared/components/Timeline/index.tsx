@@ -5,6 +5,7 @@ import { Fragment } from "react";
 // import GeanSharly from "../../assets/speakers/gean-sharly.jpg";
 import IuryGomes from "../../assets/speakers/prof-iury.png";
 import CharlesJefferson from "../../assets/speakers/professor-charles.jpeg";
+import HugoCristian from "../../assets/speakers/hugo-christian.png";
 
 export function Timeline() {
   return (
@@ -32,9 +33,9 @@ export function Timeline() {
         <TimelineContainer hour="19:50 - 20:30">
           <TimelineContentWithImage
             title="💻 Palestra de Abertura: Ética e Responsabilidade no uso da IA"
-            image=""
+            image={HugoCristian}
             name="  Hugo Cristian"
-            about_name="Nortesys"
+            about_name="Gestor de desenvolvimento de software Nortesys"
             description="Resumo: A inteligência artificial (IA) está transformando rapidamente diversos setores, trazendo benefícios significativos, mas também levantando questões éticas importantes. Nesta palestra, exploraremos os princípios fundamentais da ética na IA, discutindo temas como viés algorítmico, privacidade dos dados e responsabilidade social. Abordaremos como desenvolvedores, empresas e usuários podem colaborar para garantir que a IA seja utilizada de maneira justa, transparente e benéfica para toda a sociedade."
             address="Área de Convivência (Bloco 2)"
             womanSpeaker={false}

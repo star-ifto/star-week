@@ -152,6 +152,13 @@ export const StyledMainContainer = styled.div`
       border-radius: 12px;
     }
   }
+
+.swiper-slide-active .carousel-image {
+  transform: scale(1.08) !important;
+}
+.swiper-slide .carousel-image {
+  transform: scale(1) !important;
+}
 `;
 
 export const StyledRectangleGroup = styled.img`
