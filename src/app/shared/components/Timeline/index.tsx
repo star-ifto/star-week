@@ -47,7 +47,7 @@ export function Timeline() {
             image={IuryGomes}
             name="Iury Gomes de Oliveira"
             about_name="Mestre em Ciência da Computação, Programador e Professor do IFTO Campus Araguaína"
-            description="Resumo: Nesta palestra, exploraremos como a metodologia inovadora do Laboratório de Sistemas de Informação e Software (LabSIS) do IFTO Campus Araguaína."
+            description="Resumo: Nesta palestra, exploraremos como a metodologia inovadora do Laboratório de Sistemas de Informação e Software (LabSIS) do IFTO Campus Araguaína tem sido fundamental para o sucesso de projetos como o UpGrade e LembreMED. Discutiremos as abordagens adotadas, os desafios enfrentados e as soluções criativas desenvolvidas que levaram esses projetos a serem reconhecidos e premiados. Venha descobrir como a inovação e a colaboração acadêmica podem transformar ideias em realidade e impactar positivamente a sociedade."
             address="Área de Convivência (Bloco 2)"
           />
         </TimelineContainer>
@@ -64,7 +64,7 @@ export function Timeline() {
           />
         </TimelineContainer>
 
-        <TimelineContainer hour="21:30 - 22:00">
+        <TimelineContainer hour="21:50 - 22:30">
           <TimelineSimpleContent
             title="☕ Coffee Break."
             content={`Visita aos estandes`}
