@@ -2,7 +2,6 @@ import QRCode from "react-qr-code";
 import { GiantParagraph, Title } from "..";
 import { StyledContainer, StyledQrCodeContainer } from "./styles";
 import { ArrowSquareOut } from "phosphor-react";
-import { WhatsappLogo } from "phosphor-react";
 
 interface IInscriptionSectionProps
   extends React.DetailedHTMLProps<
