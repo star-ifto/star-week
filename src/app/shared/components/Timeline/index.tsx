@@ -2,7 +2,7 @@ import { TimelineContainer, TimelineDate, TimelineSimpleContent } from "..";
 import { TimelineContentWithImage } from "../TimelineContentWithImage";
 import { StyledTimeline } from "./styles";
 import { Fragment } from "react";
-import GeanSharly from "../../assets/speakers/gean-sharly.jpg";
+// import GeanSharly from "../../assets/speakers/gean-sharly.jpg";
 import CharlesJefferson from "../../assets/speakers/professor-charles.jpeg";
 
 export function Timeline() {
